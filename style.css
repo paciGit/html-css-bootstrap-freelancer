@@ -9,6 +9,10 @@
   margin-bottom: 70px;
 }
 
+.row {
+  border: 1px solid brown;
+}
+
 .second {
   background-color: blue;
 }
@@ -18,4 +22,20 @@
   height: 200px;
   padding: 10px;
   border: 1px black solid;
+}
+
+span {
+  display: inline-block;
+  text-align: left;
+}
+
+button {
+  padding: 15px 20px;
+  background-color: transparent;
+  border: 2px solid black;
+  font-size: 20px;
+}
+
+.buttom {
+  margin: 20px 0;
 }
