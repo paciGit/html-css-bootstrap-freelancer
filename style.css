@@ -7,7 +7,7 @@
 }
 
 .row {
-  padding: 20px 0 30px 0;
+  padding: 40px 0 40px 0;
 }
 
 hr.blackhr {
@@ -52,6 +52,22 @@ header > nav.navbar-default {
   border-bottom: #2c3e50;
 }
 
+header > nav.navbar > .container > .navbar-header > a,
+header > nav.navbar > .container > .navbar-collapse > ul.nav > li > a {
+  color: white;
+  padding: 30px;
+  font-size: 20px;
+}
+
+header > nav.navbar > .container > .navbar-header > a:hover {
+  font-size: 23px;
+}
+
+
+header > nav.navbar > .container > .navbar-collapse > ul.nav > li > a:hover {
+  color: #1abc9c;
+}
+
 /* Jumbotron */
 header > section#logoprinc > div.row {
   margin-top: 50px;
@@ -59,7 +75,7 @@ header > section#logoprinc > div.row {
   background-color: #1abc9c;
 }
 
-.logoprinc > .row > .title > h1 {
+#logoprinc > .row > .title > h1 {
   font-size: 70px;
   margin-bottom: 30px;
   color: white;
