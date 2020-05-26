@@ -7,50 +7,103 @@
 }
 
 .row {
-  margin-top: 30px;
-  padding-bottom: 30px;
+  margin-top: 20px;
+  padding: 20px 0 30px 0;
 }
 
-h1 {
-  font-size: 55px;
+hr.blackhr {
+  color: black;
+  border-top: 5px solid #2c3e50;
+  border-radius: 10px;
 }
 
-h2 {
-  font-size: 40px;
-}
-
-/* Barra fixed */
-
-
-/* Jumbotron */
-.logoprinc {
-  margin-top: 70px;
-  margin-bottom: 70px;
-  background-color: #1abc9c;
-}
-
-hr {
+hr.whitehr {
   border-top: 5px solid #eee;
   border-radius: 10px;
   color: white;
 }
 
-.glyphicon.glyphicon-star {
+h2.intest {
+  font-size: 43px;
+  color: #2c3e50;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2.intest.white {
+  font-size: 43px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.glyphicon.glyphicon-star.black {
   font-size: 40px;
+  color: #2c3e50;
+}
+
+.glyphicon.glyphicon-star.white {
+  font-size: 40px;
+  color: white;
+}
+
+/* Barra fixed */
+header > nav.navbar-default {
+  background-color: #2c3e50;
+  border-bottom: #2c3e50;
+}
+
+.navbar > .container > a.navbar-brand {
+  color: #fff;
+}
+
+/* Jumbotron */
+.logoprinc {
+  margin-top: 50px;
+  padding-bottom: 70px;
+  background-color: #1abc9c;
+}
+
+.logoprinc > .row > .title > h1 {
+  font-size: 70px;
+  margin-bottom: 30px;
+  color: white;
+  font-weight: bold;
+}
+
+.image.avatar {
+  width: 20%;
+}
+
+span#deslogo {
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 20px;
+  color: white;
 }
 
 /* Portfolio */
-.test {
-  background-color: red;
-  height: 200px;
-  padding: 10px;
-  border: 1px black solid;
+.quad {
+  padding: 30px 0 40px 30px;
+}
+
+.imgquadrato {
+  width: 80%;
+  border-radius: 10px;
 }
 
 /* About */
+.descript {
+  background-color: #1abc9c;
+}
+
 .about {
   display: inline-block;
   text-align: left;
+  line-height: 1.9;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
 }
 
 .fas.fa-download {
