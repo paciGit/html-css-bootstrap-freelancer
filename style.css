@@ -1,22 +1,45 @@
+/* Regole Generali */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-
-.logoprinc {
-  margin-top: 70px;
-  margin-bottom: 70px;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 
 .row {
-  border: 1px solid brown;
+  margin-top: 30px;
+  padding-bottom: 30px;
 }
 
-.second {
-  background-color: blue;
+h1 {
+  font-size: 55px;
 }
 
+h2 {
+  font-size: 40px;
+}
+
+/* Barra fixed */
+
+
+/* Jumbotron */
+.logoprinc {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  background-color: #1abc9c;
+}
+
+hr {
+  border-top: 5px solid #eee;
+  border-radius: 10px;
+  color: white;
+}
+
+.glyphicon.glyphicon-star {
+  font-size: 40px;
+}
+
+/* Portfolio */
 .test {
   background-color: red;
   height: 200px;
@@ -24,12 +47,17 @@
   border: 1px black solid;
 }
 
-span {
+/* About */
+.about {
   display: inline-block;
   text-align: left;
 }
 
-button {
+.fas.fa-download {
+  color: black;
+}
+
+button.buttom {
   padding: 15px 20px;
   background-color: transparent;
   border: 2px solid black;
@@ -38,4 +66,19 @@ button {
 
 .buttom {
   margin: 20px 0;
+}
+
+/* Sezione Dati Personali */
+#invia {
+  float: left;
+  padding: 5px 10px;
+}
+
+#dati {
+  width: 100%;
+  border: none;
+  padding: 10px 0;
+  border-bottom: 1px grey solid;
+  resize: none;
+  outline: none;
 }
