@@ -7,7 +7,6 @@
 }
 
 .row {
-  margin-top: 20px;
   padding: 20px 0 30px 0;
 }
 
@@ -53,12 +52,8 @@ header > nav.navbar-default {
   border-bottom: #2c3e50;
 }
 
-.navbar > .container > a.navbar-brand {
-  color: #fff;
-}
-
 /* Jumbotron */
-.logoprinc {
+header > section#logoprinc > div.row {
   margin-top: 50px;
   padding-bottom: 70px;
   background-color: #1abc9c;
@@ -93,7 +88,7 @@ span#deslogo {
 }
 
 /* About */
-.descript {
+main > section#descript > div.row {
   background-color: #1abc9c;
 }
 
@@ -113,12 +108,27 @@ span#deslogo {
 button.buttom {
   padding: 15px 20px;
   background-color: transparent;
-  border: 2px solid black;
+  border: 2px solid white;
+  border-radius: 10px;
   font-size: 20px;
 }
 
 .buttom {
   margin: 20px 0;
+}
+
+button.buttom > span,
+button.buttom {
+  color: white;
+}
+
+button:hover {
+  background-color: white;
+}
+
+button.buttom:hover > span,
+button.buttom:hover {
+  color: #2c3e50;
 }
 
 /* Sezione Dati Personali */
@@ -127,11 +137,57 @@ button.buttom {
   padding: 5px 10px;
 }
 
-#dati {
+.dati {
   width: 100%;
   border: none;
-  padding: 10px 0;
-  border-bottom: 1px grey solid;
+  padding: 25px 0;
+  border-bottom: 1px #e2e2e2 solid;
   resize: none;
   outline: none;
+  font-size: 20px;
+}
+
+button#invia {
+  margin-top: 20px;
+  color: white;
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 20px;
+}
+
+/* Footer */
+
+footer > section#first_foot > div.row {
+  background-color: #2c3e50;
+}
+
+span.info > i.fab {
+  width: 10%;
+}
+
+span.info > i {
+  margin-right: 10px;
+  padding: 15px;
+  border-radius: 100%;
+  border: 1px solid white;
+}
+
+h3.intest,
+span.info {
+  color: white;
+  line-height: 1.7;
+}
+
+span.info {
+  font-size: 15px;
+}
+
+footer > section#second_foot > div.row {
+  background-color: #1a252f;
+}
+
+span#finalfoot {
+  color: white;
 }
