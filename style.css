@@ -163,6 +163,10 @@ button.buttom:hover {
   font-size: 20px;
 }
 
+button#invia:hover {
+  background-color: #18967d;
+}
+
 button#invia {
   margin-top: 20px;
   color: white;
@@ -175,6 +179,7 @@ button#invia {
 
 /* Footer */
 
+/* First Footer */
 footer > section#first_foot > div.row {
   background-color: #2c3e50;
 }
@@ -190,6 +195,15 @@ span.info > i {
   border: 1px solid white;
 }
 
+span.info > i.fab {
+  text-align: center;
+}
+
+span.info > i:hover {
+  background-color: white;
+  color: #2c3e50;
+}
+
 h3.intest,
 span.info {
   color: white;
@@ -200,6 +214,7 @@ span.info {
   font-size: 15px;
 }
 
+/* Second Foot */
 footer > section#second_foot > div.row {
   background-color: #1a252f;
 }
