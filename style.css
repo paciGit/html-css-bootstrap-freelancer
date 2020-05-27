@@ -3,50 +3,66 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .row {
-  padding: 40px 0 40px 0;
+  padding: 40px 150px 40px 150px;
 }
 
-hr.blackhr {
-  color: black;
-  border-top: 5px solid #2c3e50;
+.container {
+  padding: 0 80px 0 80px;
+}
+
+.divisore > span.blackline {
+  color: #2c3e50;
   border-radius: 10px;
 }
 
-hr.whitehr {
-  border-top: 5px solid #eee;
+.divisore > span.whiteline {
+  color: #eee;
   border-radius: 10px;
-  color: white;
 }
 
 h2.intest {
-  font-size: 43px;
+  font-size: 40px;
   color: #2c3e50;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
 h2.intest.white {
-  font-size: 43px;
+  font-size: 40px;
   color: white;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-main > .row > .divisore > i.fas.fas-star {
-  font-size: 50px;
-  color: #2c3e50;
+.divisore {
+  margin: 20px 0;
 }
 
-.glyphicon.glyphicon-star.black {
+.divisore_line {
+  display: inline-block;
+  width: 20%;
+  height: 4px;
+  border: 2px solid;
+  border-radius: 1rem;
+}
+
+.divisore_star {
+  display: inline-block;
+  width: 50px;
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.divisore > span.divisore_star > i.black {
   font-size: 40px;
   color: #2c3e50;
 }
 
-.glyphicon.glyphicon-star.white {
+.divisore > span.divisore_star > i.white {
   font-size: 40px;
   color: white;
 }
@@ -60,12 +76,21 @@ header > nav.navbar-default {
 header > nav.navbar > .container > .navbar-header > a,
 header > nav.navbar > .container > .navbar-collapse > ul.nav > li > a {
   color: white;
-  padding: 30px;
-  font-size: 20px;
+  padding: 35px 15px 35px 15px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-header > nav.navbar > .container > .navbar-header > a:hover {
-  font-size: 23px;
+header > nav.navbar > .container > .navbar-header > a {
+  font-size: 28px;
+}
+
+header > .navbar.navbar-default.navbar-fixed-top > .container > div.navbar-header {
+  margin-left: 130px;
+}
+
+header > .navbar.navbar-default.navbar-fixed-top > .container > div.collapse.navbar-collapse {
+  margin-right: 130px;
 }
 
 
@@ -73,15 +98,19 @@ header > nav.navbar > .container > .navbar-collapse > ul.nav > li > a:hover {
   color: #1abc9c;
 }
 
+/* #bs-example-navbar-collapse-1 {
+  padding-right: 60px;
+} */
+
 /* Jumbotron */
 header > section#logoprinc > div.row {
-  margin-top: 50px;
+  padding-top: 140px;
   padding-bottom: 70px;
   background-color: #1abc9c;
 }
 
 #logoprinc > .row > .title > h1 {
-  font-size: 70px;
+  font-size: 50px;
   margin-bottom: 30px;
   color: white;
   font-weight: bold;
@@ -92,10 +121,11 @@ header > section#logoprinc > div.row {
 }
 
 span#deslogo {
-  font-size: 25px;
+  font-size: 17px;
   display: inline-block;
   margin-top: 20px;
   color: white;
+  font-weight: 500;
 }
 
 /* Portfolio */
@@ -117,7 +147,7 @@ main > section#descript > div.row {
   display: inline-block;
   text-align: left;
   line-height: 1.9;
-  margin-top: 20px;
+  padding-top: 30px;
   margin-bottom: 20px;
   color: white;
 }
@@ -127,7 +157,7 @@ main > section#descript > div.row {
 }
 
 button.buttom {
-  padding: 15px 20px;
+  padding: 13px 18px;
   background-color: transparent;
   border: 2px solid white;
   border-radius: 10px;
